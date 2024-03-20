@@ -1,9 +1,12 @@
+import TopBar from "./TopBar"
+
 function App() {
 
   return (
-<>
-<p className="bg-teal-400 min-h-screen">asd</p>
-</>
+    <body className="bg-teal-300 min-h-screen">
+      <TopBar />
+      <p> page content</p>
+    </body>
   )
 }
 
