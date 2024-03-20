@@ -1,0 +1,15 @@
+{
+    "files.exclude": {
+        "**/node_modules": true,
+        "**/.gitignore" : true,
+        "**/package-lock.json" : true,
+        "**/package.json" : true,
+        "**/*.js.map": true,
+        "**/vite-env.d.ts" : true,
+        "README.md" : true,
+        "postcss.config.js" : true,
+        "tailwind.config.js" : true,
+        "tsconfig.json" : true,
+        "tsconfig.node.json" : true,
+    }
+}
