@@ -17,7 +17,7 @@
         "tailwind.config.js": true,
         "tsconfig.json": true,
         "tsconfig.node.json": true,
-        "docs": true,
+        "docs": false,
         ".vscode": true
     },
     "explorerExclude.backup": {}
