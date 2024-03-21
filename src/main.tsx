@@ -8,6 +8,10 @@ const router = createBrowserRouter([{
   path: "/",
   element: <App />,
   errorElement: <div>404</div>
+  
+}, {
+  path: "asd",
+  element: <div>gay</div>
 }])
 
 
