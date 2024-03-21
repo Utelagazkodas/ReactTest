@@ -2,16 +2,17 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.tsx'
 import './index.css'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { createHashRouter, RouterProvider } from 'react-router-dom'
+import { About } from './about.tsx'
+import { Error404 } from './404.tsx'
 
-const router = createBrowserRouter([{
+const router = createHashRouter([{
   path: "/",
-  element: <App />,
-  errorElement: <div>404</div>
-  
-}, {
-  path: "asd",
-  element: <div>gay</div>
+  element: <App/>,
+  errorElement: <Error404/> 
+},{
+  path: "about",
+  element:<About />
 }])
 
 
