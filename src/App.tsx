@@ -1,12 +1,13 @@
 import TopBar from "./TopBar"
+//import { Languages } from './languages';
 
-interface AppProps {
-  content?: JSX.Element;
+interface AppContent {
+  content?: React.ReactNode;
 }
 
 let Err = <>no content</>
 
-function App({ content  = Err}: AppProps) :JSX.Element {
+function App({ content  = Err}: AppContent) :JSX.Element {
 
 
   return (
@@ -15,6 +16,8 @@ function App({ content  = Err}: AppProps) :JSX.Element {
 
       <TopBar />
       
+      
+
       {content}
       
     </body>
