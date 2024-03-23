@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom/client'
 import App from './App.tsx'
 import './index.css'
 import { createHashRouter, RouterProvider } from 'react-router-dom'
-import { About } from './about.tsx'
 import { Error404 } from './404.tsx'
 
 const router = createHashRouter([{
@@ -11,8 +10,11 @@ const router = createHashRouter([{
   element: <App/>,
   errorElement: <Error404/> 
 },{
-  path: "about",
-  element:<About />
+  path: "projects",
+  element: <div>projects</div>
+},{
+  path: "languages",
+  element: <div>languages</div>
 }])
 
 
