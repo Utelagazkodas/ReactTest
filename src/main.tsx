@@ -7,14 +7,14 @@ import { Error404 } from './404.tsx'
 
 const router = createHashRouter([{
   path: "/",
-  element: <App/>,
-  errorElement: <Error404/> 
+  element: <App />,
+  errorElement: <App content={Error404()}/> 
 },{
   path: "projects",
-  element: <div>projects</div>
+  element: <App />
 },{
   path: "languages",
-  element: <div>languages</div>
+  element: <App />
 }])
 
 

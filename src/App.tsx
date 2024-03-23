@@ -1,13 +1,22 @@
 import TopBar from "./TopBar"
 
-function App() {
+interface AppProps {
+  content?: JSX.Element;
+}
+
+let Err = <>no content</>
+
+function App({ content  = Err}: AppProps) :JSX.Element {
 
 
   return (
     <body className="bg-teal-300 min-h-screen ">
-      <TopBar />
 
-      main hoes here
+
+      <TopBar />
+      
+      {content}
+      
     </body>
   )
 }
