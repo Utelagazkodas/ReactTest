@@ -11,12 +11,12 @@ function App({ content  = Err}: AppContent) :JSX.Element {
 
 
   return (
-    <body className="bg-teal-300 min-h-screen ">
+    <body >
 
 
       <TopBar />
       
-      
+      {/*<Languages/>*/}
 
       {content}
       
