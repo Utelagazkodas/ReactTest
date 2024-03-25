@@ -36,7 +36,7 @@ export function Card({
   LanguageName,
 }: CardContent) {
   return (
-    <div className="bg-teal-700 w-80 aspect-[9/12] text-sky-50 p-2 rounded-xl m-3 peer-hover:blur">
+    <div className="bg-teal-700 w-80 aspect-[9/12] text-sky-50 p-2 rounded-xl m-3 peer-hover:blur hover:translate-y-[-0.75rem] transition-all">
       <div className="flex m-2 place-content-between">
         <LanguageIcon className="size-10"/> <div className="text-3xl">{LanguageName}</div>
       </div>
