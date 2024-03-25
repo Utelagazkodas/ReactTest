@@ -2,6 +2,7 @@ import TopBar from "./TopBar"
 //import { Languages } from './languages';
 
 interface AppContent {
+  
   content?: React.ReactNode;
 }
 
